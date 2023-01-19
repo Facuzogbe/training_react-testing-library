@@ -1,0 +1,14 @@
+
+1) npm install -g jest
+
+instalar jest de manera global en git 
+
+2) ejecutar test en un archivo especifico $ jest src/__test__/index.test.js
+
+
+
+3) agrego en el package.json
+ "test:watch": "jest --watch"
+para que este escuchando los cambios que yo voy metiendo los test.
+
+4) con jest --coverage voy viendo que porcentaje de alcance tienen mis test
